@@ -6,7 +6,7 @@
 # See project Makefile if using make.
 # See docker --build-arg if building directly.
 ARG GOLANG_VERSION=1.23.2
-ARG ALPINE_VERSION=3.17
+ARG ALPINE_VERSION=3.17.10
 
 FROM golang:${GOLANG_VERSION}-alpine AS builder
 
